@@ -1,4 +1,1 @@
-claudiamccurdy
-==============
-
-Claudia McCurdy's personal website.
+# [Claudia McCurdy's Website](http://nicolasmccurdy.github.io/claudiamccurdy)
