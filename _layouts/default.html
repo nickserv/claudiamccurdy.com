@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>Claudia McCurdy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.trans %}
+      <link rel="alternate"
+            hreflang="{% if page.lang != 'es' %}es{% else %}en{% endif %}"
+            href="{{ page.trans }}">
+    {% endif %}
 
     <!-- css -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
