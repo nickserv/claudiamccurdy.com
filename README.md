@@ -1,1 +1,1 @@
-# Claudia McCurdy's Website
+# [Claudia McCurdy's Website](http://claudiamccurdy.com/)
