@@ -7,7 +7,7 @@ body {
   background: #dddddd;
   font: 20px "PT Serif", serif;
   padding: initial .75em;
-  width: calc(1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5em);
+  width: calc(1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5em);
 }
 
 nav > * {
@@ -21,10 +21,14 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 3.375em;
 }
 
 h2 {
+  font-size: 2.25em;
+}
+
+h3 {
   font-size: 1.5em;
 }
 
@@ -39,6 +43,10 @@ a {
 
 a:visited {
   color: #b10dc9;
+}
+
+img {
+  width: calc(100% / 1.5);
 }
 
 footer {
