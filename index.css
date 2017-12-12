@@ -36,6 +36,16 @@ a {
   color: #0074d9;
   text-decoration: none;
 }
+
 a:visited {
   color: #b10dc9;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer:first-child {
+  flex: 1;
 }
