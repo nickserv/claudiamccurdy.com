@@ -10,6 +10,11 @@ body {
   width: calc(1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5em);
 }
 
+nav > * {
+  display: block;
+  margin-bottom: 1em;
+}
+
 h1, h2 {
   font-family: "PT Sans", sans-serif;
   margin-bottom: 0;
