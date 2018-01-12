@@ -1,5 +1,5 @@
-# [Claudia McCurdy's Website](http://claudiamccurdy.com/)
+# [Claudia McCurdy's Website](https://claudiamccurdy.com/)
 
-&copy; [Claudia McCurdy](http://claudiamccurdy.com/)
+&copy; [Claudia McCurdy](https://claudiamccurdy.com/)
 
 Website by [Nick McCurdy](http://nickmccurdy.com/)
