@@ -48,12 +48,3 @@ a:visited {
 img {
   width: calc(100% / 1.5);
 }
-
-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer:first-child {
-  flex: 1;
-}
