@@ -1,4 +1,5 @@
 html {
+  --scale: 1.5;
   display: flex;
   justify-content: center;
 }
@@ -7,7 +8,7 @@ body {
   background: #dddddd;
   font: 20px "PT Serif", serif;
   padding: initial .75em;
-  width: calc(1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5em);
+  width: calc(1em * pow(var(--scale), 9));
 }
 
 nav > * {
@@ -21,15 +22,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3.375em;
+  font-size: calc(1em * pow(var(--scale), 3));
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: calc(1em * pow(var(--scale), 2));
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: calc(1em * pow(var(--scale), 1));
 }
 
 p {
@@ -46,5 +47,5 @@ a:visited {
 }
 
 img {
-  width: calc(100% / 1.5);
+  width: calc(100% / var(--scale));
 }
