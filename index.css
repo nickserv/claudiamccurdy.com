@@ -1,51 +1,61 @@
+h1, h2, h3, p, blockquote, ul {
+  margin: 0;
+}
+
 html {
-  --scale: 1.5;
   display: flex;
   justify-content: center;
 }
 
 body {
-  background: #dddddd;
-  font: 20px "PT Serif", serif;
-  padding: initial .75em;
-  width: calc(1em * pow(var(--scale), 9));
+  font: 16px "EB Garamond", serif;
+  padding: 9px;
 }
 
-nav > * {
-  display: block;
-  margin-bottom: 1em;
+main {
+  max-width: 640px;
 }
 
-h1, h2, h3 {
-  font-family: "PT Sans", sans-serif;
-  margin-bottom: 0;
+nav {
+  font-weight: bold;
 }
 
 h1 {
-  font-size: calc(1em * pow(var(--scale), 3));
+  color: #C79A96;
+  font-size: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: calc(1em * pow(var(--scale), 2));
+  font-size: 24px;
 }
 
 h3 {
-  font-size: calc(1em * pow(var(--scale), 1));
+  font-size: 20px;
 }
 
-p {
-  margin-top: 0;
+footer, .subtitle {
+  color: #8B8B8B;
+}
+
+.subtitle {
+  font-weight: bold;
 }
 
 a {
-  color: #0074d9;
-  text-decoration: none;
+  color: blue;
 }
 
 a:visited {
-  color: #b10dc9;
+  color: purple;
 }
 
 img {
-  width: calc(100% / var(--scale));
+  float: right;
+  width: 129px;
+}
+
+blockquote {
+  margin-left: 40px;
 }
